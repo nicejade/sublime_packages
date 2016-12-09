@@ -1,0 +1,4 @@
+[
+	{ "keys": ["Ctrl+\\"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+shift+d"], "command": "delete_trailing_spaces" }
+]
