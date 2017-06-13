@@ -5,14 +5,12 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
-		"DocBlockr",
+		"BracketHighlighter",
+		"Emmet",
 		"HTML-CSS-JS Prettify",
 		"Package Control",
-		"SCSS",
-		"SideBarFolders",
-		"SublimeTmpl",
 		"SyncedSideBar",
+		"Terminal",
 		"TrailingSpaces",
 		"Vue Syntax Highlight",
 		"Vuejs Complete Package"
