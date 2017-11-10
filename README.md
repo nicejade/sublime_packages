@@ -37,3 +37,4 @@ If you do some of the targeted settings, she(Sublime) will be better to provide 
 	"translate_tabs_to_spaces": true
 }
 ```
+For more nice advice, see [How to gracefully use Sublime Text](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/).
