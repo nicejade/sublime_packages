@@ -37,4 +37,11 @@ If you do some of the targeted settings, she(Sublime) will be better to provide 
 	"translate_tabs_to_spaces": true
 }
 ```
+
+```
+[
+	{ "keys": ["Command+\"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+x"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+]
 For more nice advice, see [How to gracefully use Sublime Text](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/).
