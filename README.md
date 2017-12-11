@@ -72,7 +72,7 @@ When you use this combination configuration, you have to press `Ctrl + K` first,
 Of course, if you are using **Windows**, you should replace the `command` with `ctrl`, For more nice advice, see [How to gracefully use Sublime Text](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/).
 
 
-## **Develop [React]https://reactjs.org/()**
+## **Develop [React](https://reactjs.org/) Using Sublime**
 
 ### Setting as the default syntax
 - Find `Babel` & install it through `Package Control`.
