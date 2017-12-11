@@ -79,6 +79,8 @@ Of course, if you are using **Windows**, you should replace the `command` with `
 - Select `View` from the menu,
 - Then `Syntax` -> `Open all with current extension as...` -> `Babel` -> `JavaScript (Babel)`.
 
+>**!‼️：** You should not skip this option —— `Open all with current extension as...`, good luck.
+
 ### Setting a Color Scheme
 `Babel` comes bundled with `Next` and `Monokai` from [Benvie/JavaScriptNext.tmLanguage](https://github.com/Benvie/JavaScriptNext.tmLanguage). Select one from `Preferences` `->` `Color Scheme` `->` `Babel`
 
