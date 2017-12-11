@@ -70,3 +70,67 @@ You can create key bindings composed of multiple keys.  Like this:
 When you use this combination configuration, you have to press `Ctrl + K` first, then release `K`（or not）, and finally press `V`.
 
 Of course, if you are using **Windows**, you should replace the `command` with `ctrl`, For more nice advice, see [How to gracefully use Sublime Text](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/).
+
+
+### **Develop [React]https://reactjs.org/()**
+
+#### Setting as the default syntax
+- Find `Babel` & install it through `Package Control`.
+- Select `View` from the menu,
+- Then `Syntax` -> `Open all with current extension as...` -> `Babel` -> `JavaScript (Babel)`.
+
+#### Setting a Color Scheme
+`Babel` comes bundled with `Next` and `Monokai` from [Benvie/JavaScriptNext.tmLanguage](https://github.com/Benvie/JavaScriptNext.tmLanguage). Select one from `Preferences` `->` `Color Scheme` `->` `Babel`
+
+#### `Emmet` compatible `jsx`
+
+ Open `preferences` -> `Key bindings` - `Users`,Copy the code below to `[]` inside:
+ 
+```
+{
+  "keys": ["tab"], 
+  "command": "expand_abbreviation_by_tab", 
+
+  // put comma-separated syntax selectors for which 
+  // you want to expandEmmet abbreviations into "operand" key 
+  // instead of SCOPE_SELECTOR.
+  // Examples: source.js, text.html - source
+  "context": [
+    {
+      "operand": "source.js", 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "selector"
+    }, 
+
+    // run only if there's no selected text
+    {
+      "match_all": true, 
+      "key": "selection_empty"
+    },
+
+    // don't work if there are active tabstops
+    {
+      "operator": "equal", 
+      "operand": false, 
+      "match_all": true, 
+      "key": "has_next_field"
+    }, 
+
+    // don't work if completion popup is visible and you
+    // want to insert completion with Tab. If you want to
+    // expand Emmet with Tab even if popup is visible -- 
+    // remove this section
+    {
+      "operand": false, 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "auto_complete_visible"
+    }, 
+    {
+      "match_all": true, 
+      "key": "is_abbreviation"
+    }
+  ]
+}
+```
